@@ -1,0 +1,32 @@
+add rectangle 5 8 27 5 e
+speed 1000
+add rectangle 11 1 15 5 r
+add rectangle 15 28 17 5 t
+add rectangle 11 17 25 3 y
+undo
+redo
+add rectangle 15 17 10 15 a
+add square 21 28 9 r
+add square 31 17 12 e
+undo
+redo
+add square 31 30 2 y
+add rectangle 34 39 2 5 t
+color 0 a
+color 1 t
+undo
+color 2 y
+redo
+color 8 z
+group 0 1
+group 0 1
+group 0 1
+group 0 1
+group 0 1
+group 0 1
+group 0 1
+group 0 1
+move 0 3 5
+move 0 5 7
+ungroup 0
+eof
