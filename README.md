@@ -10,3 +10,8 @@ Small little project that tries to draw the continent of Africa with blocs of co
 
 # Load drawing
 The drawing file contains a series of commands that the program can execute. Those commands draw the African continent.
+
+# Compile in command line
+- cd src/africa/paint
+- javac -d . Main.java controller/* model/* view/*
+- java africa.paint.Main
